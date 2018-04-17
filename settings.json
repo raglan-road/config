@@ -1,0 +1,7 @@
+{
+    "javascript.implicitProjectConfig.experimentalDecorators": true,
+    "editor.renderWhitespace": "boundary",
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe"
+}
