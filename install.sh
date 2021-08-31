@@ -31,6 +31,15 @@ echo "export NVM_DIR=~/.nvm\nsource $(brew --prefix nvm)/nvm.sh" >> ~/.zshrc
 
 source ~/.zshrc
 
+# Install kdiff3
+brew install --cask kdiff3
+
+# Set some git defaults
+git config --global user.name "Adam McIntyre"
+git config --global user.email adamjmcintyre@gmail.com
+git config --global core.editor nano
+git config --global merge.tool kdiff3
+
 # Install node 14 via nvm
 echo "Installing node 14"
 nvm install 14
